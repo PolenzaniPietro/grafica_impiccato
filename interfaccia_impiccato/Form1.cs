@@ -13,7 +13,7 @@ namespace interfaccia_impiccato
         string parola = "";
         bool parolaTrovata = false, letteraTrovata = false;
         char[] trattini;
-
+        char[] lettere_usate= new char[100];
 
         private void categoria_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -35,6 +35,7 @@ namespace interfaccia_impiccato
             {
                 FilePath = "animali_italiano.txt";
             }
+            categoria.Enabled = false;
             Random rnd = new Random();
             string[] lines = File.ReadAllLines(FilePath);
             int casuale = rnd.Next(lines.Length);
@@ -60,14 +61,19 @@ namespace interfaccia_impiccato
             indizi--;
             annunci.Text = "";
             indizi_rimanenti.Text = (indizi).ToString();
+            
+                if (!trattino.Text.Contains('_'))
+                {
+                    indice = r.Next(trattino.Text.Length);
+                }
 
-            if (indizi == 0)
-            {
-                suggerimento.Enabled = false;
-                annunci.Text = "INDIZI ESAURITI";
-            }
-            trattino.Text = new string(trattini);
-
+            if (indizi <= 0)
+                {
+                    suggerimento.Enabled = false;
+                    annunci.Text = "INDIZI ESAURITI";
+                }
+                trattino.Text = new string(trattini);
+            
         }
 
         private void diffolta_SelectedIndexChanged(object sender, EventArgs e)
@@ -89,6 +95,7 @@ namespace interfaccia_impiccato
             {
                 indizi = 0; tentativi = 1;
             }
+            diffolta.Enabled = false;
             tentativi_rimanenti.Text = tentativi.ToString();
             indizi_rimanenti.Text = indizi.ToString();
             lista.Items.Clear();
@@ -121,16 +128,26 @@ namespace interfaccia_impiccato
                     letteraTrovata = true;
                     trattini[i] = lettera;
                 }
-
             }
             trattino.Text = new string(trattini);
             lista.Items.Add(lettera);
+            for (int i = 0;i < lista.Items.Count; i++)
+            {
+                lettere_usate[i] = lettera;
+            }
         }
 
         private void invia_Click(object sender, EventArgs e)
         {
             inserimentoLettera(lettera);
             inserimentoParola(parola);
+            for (int i = 0; i < lista.Items.Count; i++) 
+            {
+                if (lettere_usate[i] == lettera)
+                {
+                    annunci.Text = "HAI GIA' INSERITO QUESTA LETTERA";
+                }
+            }
             if (parolaTrovata)
             {
                 trattino.Text = parola;
@@ -157,9 +174,11 @@ namespace interfaccia_impiccato
 
         private void nuova_parola_Click(object sender, EventArgs e)
         {
+            categoria.Enabled = true;
+            diffolta.Enabled = true;
+            suggerimento.Enabled = true;
             lista.Items.Clear();
             annunci.Text = "SELEZIONA UNA NUOVA CATEGORIA E UNA NUOVA DIFFICOLTA'";
-
         }
     }
 }

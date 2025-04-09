@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\polenzani.pietro\\Desktop\\grafica_impiccato\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8441242-1A88-4DBD-B967-19E398DFD53C}|interfaccia_impiccato\\interfaccia_impiccato.csproj|c:\\users\\polenzani.pietro\\desktop\\grafica_impiccato\\interfaccia_impiccato\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8441242-1A88-4DBD-B967-19E398DFD53C}|interfaccia_impiccato\\interfaccia_impiccato.csproj|solutionrelative:interfaccia_impiccato\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8441242-1A88-4DBD-B967-19E398DFD53C}|interfaccia_impiccato\\interfaccia_impiccato.csproj|c:\\users\\polenzani.pietro\\desktop\\grafica_impiccato\\interfaccia_impiccato\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E8441242-1A88-4DBD-B967-19E398DFD53C}|interfaccia_impiccato\\interfaccia_impiccato.csproj|solutionrelative:interfaccia_impiccato\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8441242-1A88-4DBD-B967-19E398DFD53C}|interfaccia_impiccato\\interfaccia_impiccato.csproj|c:\\users\\polenzani.pietro\\desktop\\grafica_impiccato\\interfaccia_impiccato\\interfaccia_impiccato.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E8441242-1A88-4DBD-B967-19E398DFD53C}|interfaccia_impiccato\\interfaccia_impiccato.csproj|solutionrelative:interfaccia_impiccato\\interfaccia_impiccato.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\polenzani.pietro\\Desktop\\grafica_impiccato\\interfaccia_impiccato\\Form1.cs",
+              "RelativeDocumentMoniker": "interfaccia_impiccato\\Form1.cs",
+              "ToolTip": "C:\\Users\\polenzani.pietro\\Desktop\\grafica_impiccato\\interfaccia_impiccato\\Form1.cs*",
+              "RelativeToolTip": "interfaccia_impiccato\\Form1.cs*",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAjwLIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T06:18:06.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\polenzani.pietro\\Desktop\\grafica_impiccato\\interfaccia_impiccato\\Form1.cs",
+              "RelativeDocumentMoniker": "interfaccia_impiccato\\Form1.cs",
+              "ToolTip": "C:\\Users\\polenzani.pietro\\Desktop\\grafica_impiccato\\interfaccia_impiccato\\Form1.cs [Progettazione]*",
+              "RelativeToolTip": "interfaccia_impiccato\\Form1.cs [Progettazione]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T06:17:53.997Z",
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "interfaccia_impiccato",
+              "DocumentMoniker": "C:\\Users\\polenzani.pietro\\Desktop\\grafica_impiccato\\interfaccia_impiccato\\interfaccia_impiccato.csproj",
+              "RelativeDocumentMoniker": "interfaccia_impiccato\\interfaccia_impiccato.csproj",
+              "ToolTip": "C:\\Users\\polenzani.pietro\\Desktop\\grafica_impiccato\\interfaccia_impiccato\\interfaccia_impiccato.csproj",
+              "RelativeToolTip": "interfaccia_impiccato\\interfaccia_impiccato.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-09T06:17:51.026Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

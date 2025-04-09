@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\polenzani.pietro\\Desktop\\interfaccia_impiccato\\interfaccia_impiccato\\interfaccia_impiccato.csproj",
+      "projectUniqueName": "C:\\Users\\polenzani.pietro\\Desktop\\grafica_impiccato\\interfaccia_impiccato\\interfaccia_impiccato.csproj",
       "projectName": "interfaccia_impiccato",
-      "projectPath": "C:\\Users\\polenzani.pietro\\Desktop\\interfaccia_impiccato\\interfaccia_impiccato\\interfaccia_impiccato.csproj",
+      "projectPath": "C:\\Users\\polenzani.pietro\\Desktop\\grafica_impiccato\\interfaccia_impiccato\\interfaccia_impiccato.csproj",
       "packagesPath": "C:\\Users\\polenzani.pietro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\polenzani.pietro\\Desktop\\interfaccia_impiccato\\interfaccia_impiccato\\obj\\",
+      "outputPath": "C:\\Users\\polenzani.pietro\\Desktop\\grafica_impiccato\\interfaccia_impiccato\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
